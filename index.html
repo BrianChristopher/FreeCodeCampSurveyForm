@@ -6,15 +6,15 @@
     <meta charset="UTF-8"
   </head>
   <body>
-    <h1>Free Code Camp Survey Form</h1>
-    <p>
+    <h1 id="title">Free Code Camp Survey Form</h1>
+    <p id="description">
       This is a project for the
       <a href="https://freecodecamp.org">freecodecamp.org</a>
       Responsive Web Development curriculum.
     </p>
     <form id="survey-form">
       <fieldset>
-        <label
+        <label id="name-label"
           >Name:
           <input
             required
@@ -22,7 +22,7 @@
             type="text"
             placeholder="Ignatius J. Reilly"
         /></label>
-        <label
+        <label id="email-label"
           >Email:
           <input
             required
@@ -30,7 +30,7 @@
             type="email"
             placeholder="yourname@email.com"
         /></label>
-        <label
+        <label id="number-label"
           >Favorite number (1-10):
           <input
             required
@@ -58,36 +58,36 @@
         <label>
           The film starring Doris Day that most offends my sensibilities is:
           <label>
-            <input type="radio" name="offendingFilm" class="inline" /> Jumbo
+            <input type="radio" name="offendingFilm" value="Jumbo" class="inline" /> Jumbo
             (1962)
           </label>
           <label>
-            <input type="radio" name="offendingFilm" class="inline" /> That
+            <input type="radio" name="offendingFilm" value="Mink" class="inline" /> That
             Touch of Mink (1962)
           </label>
         </label>
         <label>
           The film star(s) that most represent chaos, lunacy, and bad taste are:
           <label>
-            <input type="checkbox" name="actor1" class="inline" /> Doris Day
+            <input type="checkbox" value="actor1" class="inline" /> Doris Day
           </label>
           <label>
-            <input type="checkbox" name="actor2" class="inline" /> Cary Grant
+            <input type="checkbox" value="actor2" class="inline" /> Cary Grant
           </label>
           <label>
-            <input type="checkbox" name="actor3" class="inline" /> Stephen Boyd
+            <input type="checkbox" value="actor3" class="inline" /> Stephen Boyd
           </label>
           <label>
-            <input type="checkbox" name="actor4" class="inline" /> Martha Ray
+            <input type="checkbox" value="actor4" class="inline" /> Martha Ray
           </label>
           <label>
-            <input type="checkbox" name="actor5" class="inline" /> Gig Young
+            <input type="checkbox" value="actor5" class="inline" /> Gig Young
           </label>
           <label>
-            <input type="checkbox" name="actor6" class="inline" /> Audrey Meadows
+            <input type="checkbox" value="actor6" class="inline" /> Audrey Meadows
           </label>
           <label>
-            <input type="checkbox" name="actor6" class="inline" /> Dick Sargent
+            <input type="checkbox" value="actor6" class="inline" /> Dick Sargent
           </label>
         </label>
         <label>
@@ -99,7 +99,7 @@
             placeholder="My valve is closing because..."
           ></textarea>
         </label>
-        <input type="submit" value="Submit"
+        <input type="submit" value="Submit" id="submit"
       </fieldset>
     </form>
   </body>
