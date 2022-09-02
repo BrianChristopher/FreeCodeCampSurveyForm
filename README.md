@@ -1,5 +1,5 @@
-# FreeCodeCampSurveyForm
-Free Code Camp Survey Form Project
+# Free Code Camp Survey Form
+This is the first project for the freecodecamp.org Responsive Web Development curriculum.
 
 ## Instructions:
 
