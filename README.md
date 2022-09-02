@@ -1,10 +1,11 @@
 # Free Code Camp Survey Form
+
 This is the first project for the freecodecamp.org Responsive Web Development curriculum.
 
-## Instructions:
+## Instructions
 
 Build a Survey Form
-Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
+Objective: Build an app that is functionally similar to <https://survey-form.freecodecamp.rocks>
 
 User Stories:
 
@@ -42,4 +43,4 @@ User Stories:
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+Note: Be sure to add link rel="stylesheet" href="styles.css" in your HTML to link your stylesheet and apply your CSS
